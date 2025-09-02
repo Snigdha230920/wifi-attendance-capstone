@@ -1,0 +1,1 @@
+This project is a WiFi-based attendance management system designed to automate classroom attendance marking using students’ device connectivity. Instead of traditional roll calls or manual sign-ins, the system detects the presence of a student’s device connected to the institution’s WiFi network and records attendance in real time.
