@@ -1,0 +1,47 @@
+/* Soft, classy feel */
+body {
+  background: #f6f8fb;
+}
+
+.card.shadow-soft {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.badge-present {
+  background-color: #28a745 !important; /* Bootstrap success tone */
+}
+
+.badge-absent {
+  background-color: #dc3545 !important; /* Bootstrap danger tone */
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .6rem .8rem;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: .75rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.list-item .meta {
+  display: flex;
+  gap: .75rem;
+  align-items: baseline;
+}
+
+.list-item .roll {
+  font-weight: 600;
+}
+
+.alert {
+  border-radius: .75rem;
+}
